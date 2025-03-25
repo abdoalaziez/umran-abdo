@@ -14,7 +14,7 @@ import '../assets/styles/Project.scss';
 
 function Project() {
     return(
-    <div className="projects-container" id="projects">
+    <div className="projects-container " id="projects">
         <h1>Personal Projects</h1>
         <div className="projects-grid">
             <div className="project">
@@ -42,20 +42,30 @@ function Project() {
                 <a href="https://task-treker-cto8.vercel.app/" target="_blank" rel="noreferrer"><h2>WeManage: Real Estate Asset Management</h2></a>
                 <p>This mobile application allows realtors in Japan to securely manage their property information and view future income predictions. This app is built with Ruby on Rails and JavaScript.</p>
             </div>
-            <div className="project">
-                <a href="https://https-good-worck-github-com.vercel.app/" target="_blank" rel="noreferrer"><img src={mock05} className="zoom" alt="thumbnail" width="100%"/></a>
+            <div className="project ">
+                <a href="https://https-good-worck-github-com.vercel.app/" target="_blank" rel="noreferrer"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1636978687l/58784475._SY475_.jpg" className="zoom" alt="thumbnail" width="100%" 
+                style={{
+                height: "37%"
+                }}
+                /></a>
                 <a href="https://https-good-worck-github-com.vercel.app/" target="_blank" rel="noreferrer"><h2>COVID-19 Case Management</h2></a>
                 <p>Built official charts for COVID/vaccination tracking for an educational institution using JavaScript and the Google Sheets API v4. The dashboard served the university's leadership in their decision-making processes.</p>
             </div>
-            <div className="project">
-                <a href="https://github.com" target="_blank" rel="noreferrer"><img src={mock04} className="zoom" alt="thumbnail" width="100%"/></a>
+            <div className="project ">
+                <a href="https://github.com" target="_blank" rel="noreferrer"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1633097753l/40132775._SY475_.jpg" className="zoom" alt="thumbnail" width="100%"  
+                style={{
+                    height: "38%", 
+                }}
+                /></a>
                 <a href="https://github.com" target="_blank" rel="noreferrer"><h2>Multiple Regression Property Analysis</h2></a>
                 <p>Analyzed the real estate market in Japan and predicted property prices by implementing statistical methods such as OLS and multi-regression analysis. This project leveraged Python and various libraries such as Pandas, NumPy, Matplotlib, and Scikit-Learn.</p>
             </div>
             <div className="project">
-                <a href="https://www.linkedin.com" target="_blank" rel="noreferrer"><img src={mock03} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://www.linkedin.com" target="_blank" rel="noreferrer"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1643228739l/55196813.jpg" className="zoom" alt="thumbnail" width="100%" style={{
+                    height: "38%", 
+                }}/></a>
                 <a href="https://www.linkedin.com" target="_blank" rel="noreferrer"><h2>Programs of Study</h2></a>
-                <p>Designed and developed a custom component for a CMS-based platform (e.g., 'Brightspot') using Java, Handlebars, and LESS. University students can find their majors of interest through this module.</p>
+                <p >Designed and developed a custom component for a CMS-based platform (e.g., 'Brightspot') using Java, Handlebars, and LESS. University students can find their majors of interest through this module.</p>
             </div>
             {/* <div className="project">
                 <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer"><img src={mock02} className="zoom" alt="thumbnail" width="100%"/></a>
